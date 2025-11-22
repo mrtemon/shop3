@@ -20,12 +20,12 @@ const sampleProducts = [
         title: "Серебряное кольцо с гранатом",
         price: 2500,
         category: "jewelry",
-        image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=500&fit=crop",
+        image: "imgs/jewelry_ring_6.jpg",
         rating: 4.8,
         reviews: 24,
         seller: {
             name: "Мастер Анна",
-            avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b0ad?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_anna_0.jpg",
             location: "Москва, Россия"
         },
         description: "Уникальное серебряное кольцо с натуральным гранатом. Ручная работа с использованием традиционных техник ювелирного искусства."
@@ -35,12 +35,12 @@ const sampleProducts = [
         title: "Керамическая ваза",
         price: 1800,
         category: "decor",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop",
+        image: "imgs/decor_vase_7.jpg",
         rating: 4.9,
         reviews: 18,
         seller: {
             name: "Гончарная мастерская",
-            avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_pottery_0.jpeg",
             location: "Санкт-Петербург, Россия"
         },
         description: "Ручная керамическая ваза с уникальной глазурью. Идеальна для интерьера в стиле минимализм или бохо."
@@ -50,12 +50,12 @@ const sampleProducts = [
         title: "Золотые серьги-пусеты",
         price: 4200,
         category: "jewelry",
-        image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=500&fit=crop",
+        image: "imgs/jewelry_earrings_6.jpg",
         rating: 4.7,
         reviews: 32,
         seller: {
             name: "Ювелирная мастерская Злато",
-            avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_jewelry_9.jpg",
             location: "Екатеринбург, Россия"
         },
         description: "Элегантные золотые серьги-пусеты с минималистичным дизайном. Подходят для ежедневной носки и особых случаев."
@@ -65,12 +65,12 @@ const sampleProducts = [
         title: "Вязаный плед",
         price: 3500,
         category: "decor",
-        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=500&fit=crop",
+        image: "imgs/decor_blanket_1.jpg",
         rating: 4.6,
         reviews: 15,
         seller: {
             name: "Теплые руки",
-            avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_knitting_5.jpg",
             location: "Новосибирск, Россия"
         },
         description: "Мягкий вязаный плед из натуральной шерсти. Создает уютную атмосферу в любом интерьере."
@@ -80,12 +80,12 @@ const sampleProducts = [
         title: "Кожаный браслет",
         price: 1200,
         category: "accessories",
-        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=500&fit=crop",
+        image: "imgs/accessories_bracelet_1.png",
         rating: 4.5,
         reviews: 41,
         seller: {
             name: "Кожевенная мастерская",
-            avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_leather_1.jpg",
             location: "Казань, Россия"
         },
         description: "Ручной кожаный браслет с латунной фурнитурой. Стильный аксессуар для мужчин и женщин."
@@ -95,12 +95,12 @@ const sampleProducts = [
         title: "Акварельная картина",
         price: 2800,
         category: "art",
-        image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=500&fit=crop",
+        image: "imgs/art_painting_4.jpg",
         rating: 4.9,
         reviews: 7,
         seller: {
             name: "Художник Елена",
-            avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_artist_7.jpg",
             location: "Краснодар, Россия"
         },
         description: "Оригинальная акварельная картина на холсте. Размер 30x40 см. Работа написана в 2024 году."
@@ -110,12 +110,12 @@ const sampleProducts = [
         title: "Стеклянная скульптура",
         price: 6500,
         category: "art",
-        image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop",
+        image: "imgs/decor_bowl_9.jpg",
         rating: 4.8,
         reviews: 12,
         seller: {
             name: "Стекольная мастерская",
-            avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_male_artist_4.jpg",
             location: "Владимир, Россия"
         },
         description: "Уникальная скульптура из цветного стекла. Ручная выдувка с использованием авторской техники."
@@ -125,12 +125,12 @@ const sampleProducts = [
         title: "Деревянная шкатулка",
         price: 2200,
         category: "decor",
-        image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=500&fit=crop",
+        image: "imgs/decor_bowl_7.webp",
         rating: 4.7,
         reviews: 19,
         seller: {
             name: "Столярная мастерская",
-            avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_craftsman_4.jpg",
             location: "Тула, Россия"
         },
         description: "Резная деревянная шкатулка из дуба. Отделка натуральным маслом, внутренняя отделка бархатом."
@@ -140,12 +140,12 @@ const sampleProducts = [
         title: "Жемчожное ожерелье",
         price: 8900,
         category: "jewelry",
-        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=500&fit=crop",
+        image: "imgs/jewelry_necklace_6.jpg",
         rating: 5.0,
         reviews: 28,
         seller: {
             name: "Жемчужная мастерская",
-            avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_artist_9.jpg",
             location: "Ростов-на-Дону, Россия"
         },
         description: "Классическое жемчожное ожерелье с натуральным жемчугом. Длина 45 см, застежка из золота."
@@ -155,12 +155,12 @@ const sampleProducts = [
         title: "Текстильная сумка",
         price: 1600,
         category: "accessories",
-        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=500&fit=crop",
+        image: "imgs/accessories_scarf_0.jpg",
         rating: 4.4,
         reviews: 33,
         seller: {
             name: "Текстильная студия",
-            avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_knitting_0.jpg",
             location: "Красноярск, Россия"
         },
         description: "Экологичная сумка из натурального льна. Внутренний карман на молнии, регулируемые ручки."
@@ -170,12 +170,12 @@ const sampleProducts = [
         title: "Глиняный горшок",
         price: 950,
         category: "decor",
-        image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=500&fit=crop",
+        image: "imgs/art_sculpture_9.jpg",
         rating: 4.3,
         reviews: 26,
         seller: {
             name: "Гончарня на Оке",
-            avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_pottery_1.jpg",
             location: "Рязань, Россия"
         },
         description: "Традиционный глиняный горшок для комнатных растений. Обжиг при высокой температуре."
@@ -185,12 +185,12 @@ const sampleProducts = [
         title: "Медный браслет",
         price: 1800,
         category: "jewelry",
-        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=500&fit=crop",
+        image: "imgs/jewelry_necklace_1.jpg",
         rating: 4.6,
         reviews: 21,
         seller: {
             name: "Медная мастерская",
-            avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+            avatar: "imgs/seller_leather_9.jpg",
             location: "Уфа, Россия"
         },
         description: "Медный браслет с уникальной патиной. По заверениям мастера, обладает целебными свойствами."
@@ -979,7 +979,7 @@ function handleAddProduct(e) {
         reviews: 0,
         seller: {
             name: AppState.currentUser?.name || 'Новый продавец',
-            avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b0ad?w=100&h=100&fit=crop&crop=face',
+            avatar: 'imgs/seller_young_3.jpg',
             location: 'Россия'
         }
     };
